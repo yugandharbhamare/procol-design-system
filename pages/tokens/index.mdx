@@ -1,0 +1,71 @@
+# Design Tokens
+
+Design tokens are the visual design atoms of our design system. They define the foundational elements like colors, typography, spacing, and more.
+
+## Overview
+
+Design tokens ensure consistency across all products and platforms by providing a single source of truth for design decisions. They are automatically synchronized with our Figma designs.
+
+## Token Categories
+
+### Colors
+Our color palette includes:
+- **Primary colors** - Brand colors and main UI elements
+- **Secondary colors** - Supporting colors for accents and highlights
+- **Neutral colors** - Grays and text colors
+- **Semantic colors** - Success, warning, error, and info states
+
+### Typography
+Typography tokens define:
+- **Font families** - Primary and secondary font stacks
+- **Font sizes** - Scale from small to large text
+- **Font weights** - Light, regular, medium, semibold, bold
+- **Line heights** - Optimal spacing for readability
+
+### Spacing
+Spacing tokens provide:
+- **Base unit** - 8px grid system
+- **Scale** - Consistent spacing values
+- **Usage** - When to use each spacing value
+
+### Shadows
+Shadow tokens include:
+- **Elevation levels** - Different shadow depths
+- **Use cases** - When to apply each shadow
+- **Accessibility** - Ensuring proper contrast
+
+### Border Radius
+Border radius tokens define:
+- **Corner styles** - Rounded corners for different elements
+- **Consistency** - Standardized radius values
+- **Usage guidelines** - When to use each radius
+
+## Implementation
+
+Design tokens are available in multiple formats:
+- **CSS Custom Properties** - For web projects
+- **JSON** - For design tools and documentation
+- **TypeScript** - For type-safe usage in code
+
+## Usage Examples
+
+```css
+/* Using color tokens */
+.button-primary {
+  background-color: var(--color-primary-500);
+  color: var(--color-white);
+}
+
+/* Using spacing tokens */
+.card {
+  padding: var(--spacing-4);
+  margin-bottom: var(--spacing-6);
+}
+```
+
+## Best Practices
+
+- Always use design tokens instead of hardcoded values
+- Follow the established naming conventions
+- Test color combinations for accessibility
+- Use semantic token names when available
