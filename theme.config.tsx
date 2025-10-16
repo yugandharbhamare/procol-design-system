@@ -4,12 +4,12 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span suppressHydrationWarning>Procol Design System</span>,
   project: {
-    link: 'https://github.com/procol/design-system',
+    link: 'https://github.com/yugandharbhamare/procol-design-system',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/procol/design-system',
+  docsRepositoryBase: 'https://github.com/yugandharbhamare/procol-design-system',
   footer: {
     text: 'Procol Design System Documentation',
   },
