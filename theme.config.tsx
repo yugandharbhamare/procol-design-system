@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Procol Design System</span>,
+  logo: <span suppressHydrationWarning>Procol Design System</span>,
   project: {
     link: 'https://github.com/procol/design-system',
   },
